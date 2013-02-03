@@ -1,2 +1,1 @@
-  oendor/rails/. This directory is in the load path.
 Projet de démo
