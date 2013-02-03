@@ -19,6 +19,7 @@ test:
   timeout: 5000
 
 production:
+  host: ec2-54-243-128-195.compute-1.amazonaws.com
   adapter: postgresql
   database: de3ri8aktch280
   pool: 1
