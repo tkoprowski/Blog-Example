@@ -17,10 +17,3 @@ test:
   database: db/test.sqlite3
   pool: 5
   timeout: 5000
-
-production:
-  adapter: pg
-  database:   de3ri8aktch280
-  username: bvfczuegozjuds
-  password: cXcozoxVmDPy8nohkFllS2Zg2b
-  port: 5432

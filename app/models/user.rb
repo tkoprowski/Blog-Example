@@ -1,3 +1,4 @@
 class User < ActiveRecord::Base
-  attr_accessible :eamil, :nom
+  attr_accessible :email, :nom
+  has_many :microposts
 end
