@@ -1,7 +1,10 @@
 Blog::Application.routes.draw do
 
-  resources :microposts
+  get "pages/home"
 
+  get "pages/contact"
+
+  get "pages/about"
 
   resources :microposts
   resources :users

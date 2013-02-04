@@ -11,6 +11,8 @@ end
 
 group :development, :test do
   gem 'sqlite3'
+  gem "rspec-rails", "~> 2.0"
+  gem 'webrat'
 end
 
 # Gems used only for assets and not required
