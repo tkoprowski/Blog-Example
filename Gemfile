@@ -11,7 +11,7 @@ end
 
 group :development, :test do
   gem 'sqlite3'
-  gem "rspec-rails", "~> 2.0"
+  gem "rspec-rails"
   gem 'webrat'
 end
 
