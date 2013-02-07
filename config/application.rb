@@ -38,7 +38,7 @@ module Blog
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
-
+    config.assets.precompile += ['stylesheets/print.css','stylesheets/screen.css','stylesheets/custom.css','stylesheets/ie.scss']
     # Enable escaping HTML in JSON.
     config.active_support.escape_html_entities_in_json = true
 
