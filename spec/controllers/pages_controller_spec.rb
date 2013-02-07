@@ -6,7 +6,7 @@ describe PagesController do
 before(:each) do
     #
     # Define @base_title here.
-    #
+    # @base_titre = "Simple App du Tutoriel Ruby on Rails"
   end
 
   describe "GET 'home'" do
@@ -17,7 +17,7 @@ before(:each) do
 
     it "devrait avoir le bon titre" do
       get 'home'
-      response.should have_selector("title", :content => @base_title + "Home")
+      response.should have_selector("title", :content => "Home")
     end
   end
 
@@ -29,7 +29,7 @@ before(:each) do
 
     it "should be successful" do
       get 'contact'
-      response.should have_selector("title", :content => @base_title + "Contact")
+      response.should have_selector("title", :content => "Contact")
     end
   end
 
@@ -41,7 +41,7 @@ before(:each) do
 
     it "should be successful" do
       get 'help'
-      response.should have_selector("title", :content => @base_title + "Help")
+      response.should have_selector("title", :content => "Help")
     end
   end
 
@@ -53,7 +53,7 @@ before(:each) do
 
     it "devrait avoir le bon titre" do
       get 'about'
-      response.should have_selector("title", :content => @base_title + "About")
+      response.should have_selector("title", :content => "About")
     end
   end
 end
